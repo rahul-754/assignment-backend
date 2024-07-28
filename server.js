@@ -18,7 +18,7 @@ app.use(fileupload());
 
 app.use(
     cors({
-        origin:"https://assignment-frontend-tan.vercel.app",
+        origin:"https://assignment-rahul75.vercel.app",
         credentials:true,
     })
 )
