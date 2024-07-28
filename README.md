@@ -23,7 +23,7 @@ The backend of the Employee Management Admin Panel is built with Node.js and Exp
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/employee-management-backend.git
+   git clone https://github.com/rahul-754/assignment-backend.git
    cd employee-management-backend
    ```
 
