@@ -18,7 +18,7 @@ app.use(fileupload());
 
 app.use(
     cors({
-        origin:"https://assignment-frontend-5wz8.onrender.com",
+        origin:"https://assignment-frontend-tan.vercel.app",
         credentials:true,
     })
 )
