@@ -69,6 +69,14 @@ router.post('/create', async (req, res) => {
             });
         }
 
+         // Check if email already exists
+        const existingEmployee = await Employee.findOne({ where: { email } });
+        if (existingEmployee) {
+            return res.status(400).json({
+                success: false,
+                message: 'Email already exists.'
+            });
+        }
 
         // Create a new employee
         const employee = await Employee.create({
