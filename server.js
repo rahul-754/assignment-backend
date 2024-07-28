@@ -16,12 +16,12 @@ app.use(bodyParser.json());
 app.use(fileupload());
 
 
-app.use(
-    cors({
-        origin:"http://localhost:5173",
-        credentials:true,
-    })
-)
+// app.use(
+//     cors({
+//         origin:"http://localhost:5173",
+//         credentials:true,
+//     })
+// )
 // Connect to MongoDB
 connectDB();
 
